@@ -52,6 +52,14 @@
                 <!--变成灰色即可 -->
                 <el-button size="mini" @click="handelEditImage('toGray')" type="primary">图片变灰</el-button>
                 <el-button size="mini" @click="handelEditImage('detectImage')" type="primary">图片识别</el-button>
+                <el-button size="mini" @click="handelEditImage('xFlip')" type="primary">xFlip</el-button>
+                <el-button size="mini" @click="handelEditImage('toHSV')" type="primary">HSV颜色空间</el-button>
+                <el-button size="mini" @click="handelEditImage('toHSI')" type="primary">HSI颜色空间</el-button>
+                <el-button size="mini" @click="handelEditImage('toNormalize')" type="primary">归一化</el-button>
+                <el-button size="mini" @click="handelEditImage('toLAB')" type="primary">LAB颜色空间</el-button>
+                <el-button size="mini" @click="handelEditImage('yFlip')" type="primary">yFlip</el-button>
+                <el-button size="mini" @click="handelEditImage('cannyFilters')" type="primary">canny边缘检测</el-button>
+                <el-button size="mini" @click="handelEditImage('sobelFilters')" type="primary">sobel算子</el-button>
             </div>
         </div>
         <div class="edit-right">
